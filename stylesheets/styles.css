@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Noto Sans';
+  font-family: 'Helvetica';
   font-weight: 400;
   font-style: normal;
   src: url('../fonts/Noto-Sans-regular/Noto-Sans-regular.eot');
@@ -13,7 +13,7 @@
 }
 
 @font-face {
-  font-family: 'Noto Sans';
+  font-family: 'Helvetica';
   font-weight: 700;
   font-style: normal;
   src: url('../fonts/Noto-Sans-700/Noto-Sans-700.eot');
@@ -27,7 +27,7 @@
 }
 
 @font-face {
-  font-family: 'Noto Sans';
+  font-family: 'Helvetica';
   font-weight: 400;
   font-style: italic;
   src: url('../fonts/Noto-Sans-italic/Noto-Sans-italic.eot');
@@ -41,7 +41,7 @@
 }
 
 @font-face {
-  font-family: 'Noto Sans';
+  font-family: 'Helvetica';
   font-weight: 700;
   font-style: italic;
   src: url('../fonts/Noto-Sans-700italic/Noto-Sans-700italic.eot');
@@ -57,13 +57,13 @@
 body {
   background-color: #fff;
   padding:50px;
-  font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#727272;
+  font: 12px/1.5 "Helvetica", "Helvetica", Helvetica, Arial, sans-serif;
+  color:#333333;
   font-weight:400;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#222;
+  color:#333333;
   margin:0 0 20px;
 }
 
@@ -80,11 +80,11 @@ h1 {
 }
 
 h2 {
-  color:#393939;
+  color:#333333;
 }
 
 h3, h4, h5, h6 {
-  color:#494949;
+  color:#333333;
 }
 
 a {
@@ -139,18 +139,12 @@ table {
 }
 
 th, td {
-  text-align:left;
-  padding:5px 10px;
-  border-bottom:1px solid #e5e5e5;
+  padding:0px 0px;
 }
 
 dt {
   color:#444;
   font-weight:700;
-}
-
-th {
-  color:#444;
 }
 
 img {
@@ -194,7 +188,6 @@ header ul a {
   font-size:11px;
   color:#999;
   display:block;
-  text-align:center;
   padding-top:6px;
   height:34px;
 }

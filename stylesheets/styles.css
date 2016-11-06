@@ -133,18 +133,21 @@ pre {
   overflow-x: auto;
 }
 
-table {
-  width:100%;
-  border: 0; 
+.container {
+    display: table;
 }
 
-th, td {
-  padding:0px 0px;
+.row {
+    display: table-row;
 }
 
-dt {
-  color:#444;
-  font-weight:700;
+.cell {
+    display: table-cell;
+    padding-top: 0.2em;
+}
+
+#tracklist {
+    width: 100%;
 }
 
 img {
